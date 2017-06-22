@@ -1,0 +1,25 @@
+{
+  "name": "you-are-here-demo",
+  "version": "1.0.0",
+  "description": "Demo of You are Here component",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack"
+  },
+  "author": "Eric Dixon",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "1.5.5",
+    "autoprefixer": "6.0.3",
+    "css-loader": "0.28.4",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "node-sass": "^4.5.3",
+    "postcss": "6.0.2",
+    "postcss-loader": "2.0.5",
+    "sass-loader": "^6.0.5",
+    "style-loader": "0.18.2",
+    "webpack": "2.6.1",
+    "webpack-dev-server": "2.4.5"
+  }
+}
