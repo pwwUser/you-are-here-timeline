@@ -9,3 +9,10 @@ vendor.bundle.js is essentially angular 1.5.5, so you could use a separate angul
 you-are-here.bundle.js contains all the javascript, css, and html for an angular component.
 
 index.html gives an example of how to use the angular component on a (jsp) page. (ensure vendor.bundle.js or angular.js is loaded before the you-are-here.bundle.js)
+
+# TO DEVELOP ON
+Clone git repo locally.
+*npm install* to get necessary libraries in place.
+You can use *webpack-dev-server* to serve the assets locally and get some nifty development tricks in the process (like hot module replacement)
+Or
+you can *npm bundle* and load the index.html page in your browser of choice to see the component without having to serve the assets locally.
