@@ -10,6 +10,7 @@ module.exports = {
     },
     output: {
         path: __dirname + '/dist',
+        publicPath: '/dist',
         filename: 'you-are-here.bundle.js'
     },
     module: {

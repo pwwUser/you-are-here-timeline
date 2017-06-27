@@ -16,6 +16,8 @@ Clone git repo locally.
 *npm install* to get necessary libraries in place.
 
 You can use *webpack-dev-server* to serve the assets locally and get some nifty development tricks in the process (like hot module replacement)
+To globally install, use *npm install webpack-dev-server -g*
+To start dev server *webpack-dev-server --inline*
 
 Or
 
