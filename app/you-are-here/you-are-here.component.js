@@ -24,8 +24,4 @@ function YouAreHereCtrl() {
 	
 	function _timelineLoadFailed(error) {
 	}
-	
-	$ctrl.foo = function() {
-		var _blah = $ctrl.timelineData;
-	};
 }
