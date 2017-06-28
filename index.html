@@ -9,7 +9,9 @@
 <script src="dist/you-are-here.bundle.js"></script>
 
 <section ng-app="youAreHereModule">
-    <xtreme-you-are-here-timeline is-ibes-version="true" idalink-data="{data: 'data from IBES webservice'}"></xtreme-you-are-here-timeline>
+	<div ng-controller="youAreHereCtrl">
+		<xtreme-you-are-here-timeline timeline-data="timelineData"></xtreme-you-are-here-timeline>
+	</div>
 </section>
 
 

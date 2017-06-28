@@ -4,7 +4,9 @@
   "description": "Demo of You are Here component",
   "main": "index.js",
   "scripts": {
-    "bundle": "webpack"
+    "bundle": "webpack",
+    "start": "webpack-dev-server --inline",
+    "rest-server": "json-server --watch mock-timeline-data.json --port 9001"
   },
   "author": "Eric Dixon",
   "license": "ISC",

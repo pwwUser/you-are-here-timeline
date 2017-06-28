@@ -60,7 +60,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin({}), // wont work with javaScript unless we use UI-router
         new webpack.NamedModulesPlugin()
     ],
-    devtool: "#eval", // fast cheap source maps  // in order for css source maps to work use '#source-map'
+    devtool: "#source-map", // fast cheap source maps  // in order for css source maps to work use '#source-map'
     devServer: {
         contentBase: path.join(__dirname, "/"),
         compress: true,

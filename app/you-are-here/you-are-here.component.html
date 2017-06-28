@@ -2,8 +2,15 @@
     <h1 class="you-are-here__header">You Are Here Timeline!</h1>
 
     <section class="you-are-here__data">
-        <div>Is IBES version: {{$ctrl.isIbesVersion}}</div>
-        <div>idalink data: {{$ctrl.idalinkData}}</div>
+        <div>Current Date: {{$ctrl.metadata.currentDate}}</div>
+        <div>Program ID: {{$ctrl.metadata.programId}}</div>
+		
+		<ul class="you-are-here__milestone-list">
+			<li class="you-are-here__milestone" ng-repeat="milestone in $ctrl.milestones">
+				{{milestone.name}}<br/>
+				{{milestone.date}}
+			</li>
+		</ul>
     </section>
 
 </section>

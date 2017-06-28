@@ -1,7 +1,13 @@
 .you-are-here__header {
   background: rgba(0, 0, 255, 0.15);
 }
-.you-are-here__data{
+.you-are-here__data {
   background: rgba(0, 128, 0, 0.14);
 }
-
+.you-are-here__milestone-list {
+	list-style-type: none;
+}
+.you-are-here__milestone {
+	float: left;
+	padding: 5px 15px;
+}

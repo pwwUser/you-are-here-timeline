@@ -17,7 +17,10 @@ Clone git repo locally.
 
 You can use *webpack-dev-server* to serve the assets locally and get some nifty development tricks in the process (like hot module replacement)
 To globally install, use *npm install webpack-dev-server -g*
-To start dev server *webpack-dev-server --inline*
+Next install json-server *npm install json-server -g*
+To start mock back-end server *npm run rest-server* (uses port 9001)
+To start dev front-end server *npm run start* (uses port 9000)
+With both started, navigate to http://localhost:9000/index.html
 
 Or
 
